@@ -1,13 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Result Summary Component</title>
+</head>
+<body>
+<main class="container">
+    <main class="card">
+        <section class="azul">
+            <div class="head">Your Result</div>
+            <div class="bolita">
+                <div class="parte">76</div>
+                <div class="total">of 100</div>
+            </div>
+            <div class="title">Great</div>
+            <div class="subtitle">You scored higher than 65% of the people who have taken these tests</div>
+        </section>
+        <section class="results">
+            <p>Summary</p>
+            <div class="reaction resultContainer">
+                <div class="key">
+                    <img alt="reaction" src="/icon-reaction.svg"/>
+                    <span>Reaction</span></div>
+                <div class="numbers"><span>80</span> / 100</div>
+            </div>
+            <div class="memory resultContainer">
+                <div class="key">
+                    <img alt="memory" src="/icon-memory.svg"/>
+                    <span>Memory</span></div>
+                <div class="numbers"><span>80</span> / 100</div>
+            </div>
+            <div class="verbal resultContainer">
+                <div class="key">
+                    <img alt="verbal" src="/icon-verbal.svg"/>
+                    <span>Verbal</span></div>
+                <div class="numbers"><span>80</span> / 100</div>
+            </div>
+            <div class="visual resultContainer">
+                <div class="key">
+                    <img alt="visual" src="/icon-visual.svg"/>
+                    <span>Visual</span></div>
+                <div class="numbers"><span>80</span> / 100</div>
+            </div>
+            <button type="button">Continue</button>
+        </section>
+    </main>
+</main>
+<script type="module" src="/main.js"></script>
+</body>
 </html>
